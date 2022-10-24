@@ -33,7 +33,7 @@ namespace Core.DataAccess.EntityFramework
         {
             using (TContext context=new TContext())
             {
-                return 
+                throw new NotImplementedException();
             }
         }
 
