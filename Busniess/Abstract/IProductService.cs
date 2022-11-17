@@ -15,5 +15,7 @@ namespace Busniess.Abstract
         IDataResult<List<ProductDetailDto>> GetProductDetail();
         IDataResult<Product> GetById(int productId);
         IResult Add(Product product);
+
+        //RESTFUL --> HTTP --> 
     }
 }
